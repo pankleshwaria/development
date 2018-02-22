@@ -1,7 +1,7 @@
 <?php
 public class Program {
 	
-	public __construct() {
+	public function __construct() {
 		$this->printMessage();
 	}
 	
