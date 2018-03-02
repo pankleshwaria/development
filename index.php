@@ -1,13 +1,22 @@
 <?php
 
-class Program {
+class CProgram {
+
+	private $m_strMessage;
 
 	public function __construct() {
-		$this->printMessage();
 	}
-	
+
+	public function setMessage( $strMessage ) {
+		$this->m_strMessage = $strMessage;
+	}
+
+	public function getMessage() {
+		return $this->m_strMessage;
+	}
+
 	public function printMessage() {
-		echo 'Hello World';
+		echo $this->m_strMessage;
 	}
+
 }
-$objProgram = new Program();
