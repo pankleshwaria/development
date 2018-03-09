@@ -7,10 +7,10 @@ class CCheckSyntax {
 	}
 
 	public function runChecks() {
-		$strCmd = 'php -l';
+		$strCmd = 'php -l /var/lib/jenkins/workspace/Test/index.php';
 		$strResult = exec( $strCmd );
 
-		if( false == is_null( $strResult ) ) {
+		if( false !== strpos( $strResult, ' error:' ) ) {
 			echo 'Checks Failed!' . PHP_EOL;
 			exit( 1 );
 		} else {
