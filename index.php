@@ -19,4 +19,8 @@ class CProgram {
 		echo $this->m_strMessage;
 	}
 
+	public function add( $firstNumber, $secondNumber ) {
+		return $firstNumber + $secondNumber;
+	}
+
 }

@@ -22,6 +22,19 @@ class CTestIndex {
 		}
 	}
 
+	public function testAdd() {
+		$objProgram = new CProgram();
+		$strResult = $objProgram->add( 2, 3 );
+
+		if( $strResult == 5 ) {
+			echo 'Test pass.';
+			return true;
+		} else {
+			echo 'Test fail.';
+			exit( 1 );
+		}
+	}
+
 }
 $objTestIndex = new CTestIndex();
-$objTestIndex->testSetMessage();
+$objTestIndex->testAdd( 2, 3 );
