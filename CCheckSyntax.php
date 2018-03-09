@@ -8,7 +8,7 @@ class CCheckSyntax {
 
 	public function runChecks() {
 		$strCmd = 'php -l /var/lib/jenkins/workspace/Test/index.php';
-		$strResult = exec( $strCmd );
+		$strResult = shell_exec( $strCmd );
 
 		if( false !== strpos( $strResult, ' error:' ) ) {
 			echo 'Checks Failed!' . PHP_EOL;
