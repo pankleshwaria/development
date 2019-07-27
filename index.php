@@ -23,4 +23,8 @@ class CProgram {
 		return $firstNumber + $secondNumber;
 	}
 
+	public function subtract( $firstNumber, $secondNumber ) {
+		return $firstNumber - $secondNumber
+	}
+
 }
