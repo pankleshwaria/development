@@ -31,4 +31,8 @@ class CProgram {
 		return $firstNumber / $secondNumber
 	}
 
+	public function multiply( $firstNumber, $secondNumber ) {
+		return $firstNumber * $secondNumber
+	}
+
 }
