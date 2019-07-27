@@ -27,4 +27,8 @@ class CProgram {
 		return $firstNumber - $secondNumber
 	}
 
+	public function divide( $firstNumber, $secondNumber ) {
+		return $firstNumber / $secondNumber
+	}
+
 }
