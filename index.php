@@ -35,4 +35,8 @@ class CProgram {
 		return $firstNumber * $secondNumber
 	}
 
+	public function square( $firstNumber ) {
+		return $firstNumber * $firstNumber;
+	}
+
 }
