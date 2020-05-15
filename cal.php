@@ -14,7 +14,7 @@ class CCal {
 	}
 
 	public function divide( $firstNumber, $secondNumber ) {
-		$firstNumber // $secondNumber;
+		$firstNumber / $secondNumber;
 	}
 
 	public function multiply( $firstNumber, $secondNumber ) {
