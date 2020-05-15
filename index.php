@@ -2,6 +2,8 @@
 
 class CProgram {
 
+	private $this->m_strMessage; 
+
 	public function __construct() {
 	}
 
