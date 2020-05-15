@@ -6,7 +6,7 @@ class CCal {
 	}
 
 	public function add( $firstNumber, $secondNumber ) {
-		
+		$firstNumber + $secondNumber;
 	}
 
 	public function subtract( $firstNumber, $secondNumber ) {
