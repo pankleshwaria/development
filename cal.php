@@ -18,7 +18,7 @@ class CCal {
 	}
 
 	public function multiply( $firstNumber, $secondNumber ) {
-		
+		$firstNumber * $secondNumber;
 	}
 	
 }
